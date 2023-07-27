@@ -9,3 +9,13 @@
 margin:0; 
 padding:0;
 }
+
+.image-hover:hover{
+    opacity:1;
+}
+
+.image-hover{
+    margin:10px auto 0 auto; 
+    border-radius:10px; 
+    opacity:0.6;
+}
