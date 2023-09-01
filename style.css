@@ -39,12 +39,40 @@ padding:0;
     padding-bottom:50px;
     
 }
+/*fixes centering of cards */
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
 .card-center{
     align-items: center;
 }
+.avatar-holder{
+    text-align: center;;
+}
+.avatar{
+    max-width:556px;
+    max-height:360px;
+    margin:auto;
+
+}
+.text-holder{
+    text-align: center;;
+    max-width:556px;
+}
+.text-color{
+    color:#D3AC2B;
+    font-weight:600;
+    font-size:1.5em;
+    background-color:red;
+    max-width:700px;
+    margin:auto;
+    max-width:556px;
+}
 @media only screen and (max-width: 575px){
     .test{
-        margin-left:18%;
+        
     }
 }
 
