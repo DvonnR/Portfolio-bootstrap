@@ -49,17 +49,19 @@ padding:0;
     align-items: center;
 }
 .avatar-holder{
-    text-align: center;;
+   
+    
 }
 .avatar{
     max-width:556px;
     max-height:360px;
-    margin:auto;
-
+    vertical-align: super;
 }
 .text-holder{
     text-align: center;;
     max-width:556px;
+    
+   
 }
 .text-color{
     color:#D3AC2B;
@@ -67,20 +69,98 @@ padding:0;
     font-size:1.5em;
     background-color:red;
     max-width:700px;
-    margin:auto;
+   
     max-width:556px;
+    display:inline-block;
 }
-@media only screen and (max-width: 575px){
-    .test{
-        
-    }
+.tsetting{
+    
+}
+.bio{
+    display:inline-block;
+    width:400px;
+    
+}
+.holding{
+  
+
+}
+.headhshot{
+
+    max-width:350px;
+    width:350px;
+    
+    vertical-align:top;
+
+   
+    margin-right:50px;
 }
 
-@media only screen and (max-width: 766px){
+.foot-edit{
+    text-decoration: none;
+   color:rgb(147 149 158);
+}
+.foot-edit:hover{
+    color:rgb(184, 185, 190);
+}
+
+.grid-holder2{
+    margin:100px 0 0 0;
+}
+
+.spacer{
+    margin-right:1.5vw;
+}
+.link1{
+    text-decoration: none ;
+    color:rgb(147 149 158);; 
+}
+.link1:hover{
+    color:rgb(195, 196, 202);
+}
+@media only screen and (max-width: 992px){
+    
+        .headhshot{
+
+            max-width:350px;
+            width:250px;
+            
+            vertical-align:top;
+        
+           
+            margin-right:70px;
+        }
+
+        .bio{
+            display:inline-block;
+            width:300px;
+            
+        }
+    
+}
+
+@media only screen and (max-width: 767px){
     .grid-holder{
         display:grid;
         grid-template-columns:auto auto ;
         gap: 10px;;
+        
+    }
+
+    .headhshot{
+
+        max-width:350px;
+        width:200px;
+        float:left;
+        vertical-align:top;
+    
+       
+        margin-right:0px;
+    }
+
+    .bio{
+        display:inline;
+        width:300px;
         
     }
     
