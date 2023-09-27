@@ -1,13 +1,13 @@
+*{
+    margin:0; 
+    padding:0;
+}
 
 .box{
     min-height:50px;
     font-size:1.2rem;
     background-color:green;
     border:1px yellow solid;
-}
-*{
-margin:0; 
-padding:0;
 }
 
 .img-skill{
@@ -18,6 +18,7 @@ padding:0;
     max-width:300px;
     max-height:250px;
 }
+
 .img-coloring{
     background-color:white;
 }
@@ -27,9 +28,11 @@ padding:0;
     border-radius:10px; 
     opacity:0.6;
 }
+
 .image-hover:hover{
     opacity:1;
 }
+
 .grid-holder{
     display:grid;
     grid-template-columns:auto auto auto;
@@ -45,54 +48,47 @@ padding:0;
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
 .card-center{
     align-items: center;
 }
-.avatar-holder{
-   
-    
+
+
+.remove-line{
+    text-decoration: none;
 }
 .avatar{
     max-width:556px;
     max-height:360px;
     vertical-align: super;
 }
+
 .text-holder{
     text-align: center;;
     max-width:556px;
-    
-   
 }
+
 .text-color{
     color:#D3AC2B;
     font-weight:600;
     font-size:1.5em;
     background-color:red;
     max-width:700px;
-   
     max-width:556px;
     display:inline-block;
 }
-.tsetting{
-    
-}
+
 .bio{
     display:inline-block;
     width:400px;
-    
+    color:#D3AC2B;;
+    font-weight:700;
 }
-.holding{
-  
 
-}
 .headhshot{
-
     max-width:350px;
     width:350px;
-    
     vertical-align:top;
-
-   
     margin-right:50px;
 }
 
@@ -100,6 +96,7 @@ padding:0;
     text-decoration: none;
    color:rgb(147 149 158);
 }
+
 .foot-edit:hover{
     color:rgb(184, 185, 190);
 }
@@ -111,13 +108,21 @@ padding:0;
 .spacer{
     margin-right:1.5vw;
 }
+
 .link1{
     text-decoration: none ;
     color:rgb(147 149 158);; 
 }
+
 .link1:hover{
     color:rgb(195, 196, 202);
 }
+
+.test:hover{
+    
+    color:#D3AC2B;
+}
+
 @media only screen and (max-width: 992px){
     
         .headhshot{
